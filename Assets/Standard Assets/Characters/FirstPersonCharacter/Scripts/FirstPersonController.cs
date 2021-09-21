@@ -299,7 +299,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         void SetCountText()
         {
             countText.text = "Rick's Hairs collected: " + count.ToString();
-            if (count >= 15)
+            if (count >= 2)
             {
                 winTextObject.SetActive(true);
             }
